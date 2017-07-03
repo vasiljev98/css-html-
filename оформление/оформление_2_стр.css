@@ -1,17 +1,27 @@
 body {
-    font-family: Tahoma, serif;
+    font-family: Georgia, serif;
 }
 
-
-h1 {
-	font-size: 80px;
-    color: #999999;
+p {
+    margin: 10px 0; /* Расстояние между строчками*/
+    padding: 5px 10px; /* Ширина строчек */
+    color: white;
+    border: 2px solid #ccc;
+    border-left-width: 10px; /* Отступ */
 }
 
-strong {
-    color: green;
+.learned-ok {
+    text-decoration: line-through;
+    border-color: #27ae60;
+    background-color: #2ecc71;
 }
 
-em {
-    color: red;
+.learning-in-progress {
+    border-color: #f39c12;
+    background-color: #f1c40f;
+}
+
+.not-learned {
+    border-color: #c0392b;
+    background-color: #e74c3c;
 }
